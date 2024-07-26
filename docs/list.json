@@ -45,6 +45,6 @@
     "id": 10,
     "name": "GULMS - Fast my-course listing",
     "description": "マイコースで、コースの一覧をキャッシュして保存しておくことで、すばやく表示されるようにします。",
-    "filename": "GULMS-Fast_my-course_listing.user.js"
+    "filename": "GULMS-Fast_my-course-listing.user.js"
   }
 ]
