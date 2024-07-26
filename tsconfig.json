@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     "target": "ES2020",
+    "module": "NodeNext",
     "allowJs": true,
     "outDir": "dummy",
-    "moduleResolution": "Node16",
+    "moduleResolution": "NodeNext",
     "noEmit": true
   },
   "include": ["docs/**/*.js", "typings/**/*.ts"],
