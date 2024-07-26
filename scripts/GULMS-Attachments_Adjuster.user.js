@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GULMS - Attachments Adjuster
 // @namespace    http://kyn165.github.io
-// @version      1.0
+// @version      2024-04-18
 // @description  Adjust attachment links on LMS so Office files will be downloaded while others (including pdf files) not.
 // @author       kyn
 // @match        https://mdl.media.gunma-u.ac.jp/mod/*
