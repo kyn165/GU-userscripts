@@ -5,12 +5,19 @@
 // @description  Empower banners shown on LMS about the regular maintenance. Now it is closable.
 // @author       kyn
 // @match        https://mdl.media.gunma-u.ac.jp/*
+// @match        https://kyn165.github.io/GU-userscripts/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=www.gunma-u.ac.jp
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
+
+    if(window.location.origin.includes("github.io")){
+        (window.__installedExtension ??= []).push(8);
+        return;
+    }
+
     const dismissBannerLS = "dismissed_banner";
     const banner = document.getElementsByClassName("addinghtml")[0];
     if(banner){

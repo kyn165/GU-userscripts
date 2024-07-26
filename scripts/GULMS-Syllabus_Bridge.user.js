@@ -1,17 +1,23 @@
 // ==UserScript==
 // @name         GULMS - Syllabus Bridge
 // @namespace    http://kyn165.github.io
-// @version      2024-04-08
+// @version      1.0
 // @description  Show a button on course pages on LMS to allow you to access the syllabus page quickly.
 // @author       kyn
 // @match        https://mdl.media.gunma-u.ac.jp/course/view.php?id=*
 // @match        https://www.kyomu-sys.gunma-u.ac.jp/Portal/Public/Syllabus/DetailMain.aspx?*
+// @match        https://kyn165.github.io/GU-userscripts/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=www.gunma-u.ac.jp
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
+
+    if(window.location.origin.includes("github.io")){
+      (window.__installedExtension ??= []).push(1);
+      return;
+    }
 
     const searchParams = new URLSearchParams(location.search);
 

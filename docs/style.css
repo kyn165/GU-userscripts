@@ -1,0 +1,95 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Kosugi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fafafa;
+}
+
+a, a:visited {
+  color: #0000ee;
+  text-decoration: underline;
+  text-decoration-color: #0000ee;
+}
+
+a:active {
+  color: #f00;
+  text-decoration-color: #f00;
+}
+
+.center {
+  text-align: center;
+}
+
+main {
+  width: min(96%, 600px);
+  margin: 0 auto;
+}
+
+main > h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+main > section.description p {
+  line-height: 1.5;
+  margin: 0.5rem 0;
+}
+
+main > section.description p::before {
+  content: "　";
+}
+
+#app {
+  margin: 2rem 0;
+}
+
+footer {
+  margin-bottom: 1rem;
+}
+
+footer * {
+  text-align: center;
+  font-size: 90%;
+  color: #00000090;
+  padding: 0.25rem 0;
+}
+
+.list {
+  padding: 0.75rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.card {
+  border: 1px solid #00000020;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: grid;
+  gap: 0.5rem;
+  box-shadow:
+    0px 0.9px 2.7px rgba(0, 0, 0, 0.012),
+    0px 2.2px 6.9px rgba(0, 0, 0, 0.018),
+    0px 4.4px 14.2px rgba(0, 0, 0, 0.022),
+    0px 9.1px 29.2px rgba(0, 0, 0, 0.028),
+    0px 25px 80px rgba(0, 0, 0, 0.04)
+  ;
+}
+
+.card .name {
+  font-size: 130%;
+}
+
+.card .desc {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #00000020;
+}
+
+.card .install {
+  text-align: right;
+}

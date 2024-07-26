@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "GULMS - Syllabus Bridge",
+    "description": "LMSの各コースのページで、右下の？のボタンの隣に、シラバスへワンクリックでアクセスできるリンクを表示します。コースを見ている際に、ワンクリックでシラバスを確認できるので便利です。",
+    "filename": "GULMS-Syllabus_Bridge.user.js"
+  },
+  {
+    "id": 2,
+    "name": "GULMS - Attachments Adjuster",
+    "description": "LMS上の添付ファイルで、オフィスのファイル（Word, Excel, PowerPoint）をクリックした際には、ダウンロードされるようにして、逆に PDF ファイルは手動でダウンロードしない限りダウンロードせずに表示するようにします。",
+    "filename": "GULMS-Attachments_Adjuster.user.js"
+  },
+  {
+    "id": 3,
+    "name": "GULMS - Darkmode",
+    "description": "LMS のヘッダー部分にダークモードに切り替えられるチェックボックスを追加します。ダークモードに切り替えると、LMS の背景色が黒くなります。",
+    "filename": "GULMS-Darkmode.user.js"
+  },
+  {
+    "id": 6,
+    "name": "GULMS - New Session Redirector",
+    "description": "LMS にログインされたときなど、新しいセッションの時に、Home ではなく、マイコースページを最初に開くようにします。",
+    "filename": "GULMS-New_Session_Redirector.user.js"
+  },
+  {
+    "id": 7,
+    "name": "GUKYOMU - Disable interval alert",
+    "description": "教務システムに長時間ログインしていると表示される、意味の不明なダイアログを無効化します。このダイアログも何かしらの意味があるのだとは思いますが、年間を通して意味があるタイミングのほうが少ないと思われます。",
+    "filename": "GUKYOMU-Disable_interval_alert.user.js"
+  },
+  {
+    "id": 8,
+    "name": "GULMS - Dismissable Banner",
+    "description": "LMS の定期メンテナンスのお知らせバナーを閉じることができるようにします。",
+    "filename": "GULMS-Dismissable_Banner.user.js"
+  },
+  {
+    "id": 9,
+    "name": "GULMS - Course Page Scroll Restore",
+    "description": "コースページからフォルダを開いたり、リンクをクリックしたりしたあと、コースページに戻った際に、スクロール位置をできるだけ復元するようにします。（場合によっては復元されません。）",
+    "filename": "GULMS-Course_Scroll_Restore.user.js"
+  },
+  {
+    "id": 10,
+    "name": "GULMS - Fast my-course listing",
+    "description": "マイコースで、コースの一覧をキャッシュして保存しておくことで、すばやく表示されるようにします。",
+    "filename": "GULMS-Fast_my-course_listing.user.js"
+  }
+]

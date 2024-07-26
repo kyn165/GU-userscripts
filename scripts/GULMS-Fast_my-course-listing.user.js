@@ -5,6 +5,7 @@
 // @description  List your course cards fastly by caching the request
 // @author       kyn
 // @match        https://mdl.media.gunma-u.ac.jp/my/courses.php
+// @match        https://kyn165.github.io/GU-userscripts/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=www.gunma-u.ac.jp
 // @grant        none
 // @run-at       document-start
@@ -12,6 +13,11 @@
 
 (function() {
     'use strict';
+
+    if(window.location.origin.includes("github.io")){
+        (window.__installedExtension ??= []).push(10);
+        return;
+    }
 
     const LS_CACHE_KEY = "course_cache";
     const LS_CACHE_IV_KEY = "course_cache_v";

@@ -5,12 +5,19 @@
 // @description  Enables comfortable LMS for eyes. Add a dark mode toggle on header.
 // @author       kyn
 // @match        https://mdl.media.gunma-u.ac.jp/*
+// @match        https://kyn165.github.io/GU-userscripts/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=www.gunma-u.ac.jp
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
+
+    if(window.location.origin.includes("github.io")){
+        (window.__installedExtension ??= []).push(3);
+        return;
+    }
+
     var checkbox;
     var style;
 

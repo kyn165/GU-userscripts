@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="kyn165" />
+    <meta name="description" content="群馬大学生向けのユーザースクリプト公開ページです。LMSや教務システムをもっと快適にします。" />
+    <meta name="keywords" content="群馬大学, ユーザースクリプト, Tampermonkey, LMS, Moodle, 不便, 使いにくい, 使いずらい, ユーザースクリプト, 拡張機能" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="./style.css" as="style" />
+    <link rel="preload" href="./main.js" as="script" crossorigin />
+    <link rel="preload" href="./app.js" as="script" crossorigin />
+    <link rel="preload" href="./list.json" as="fetch" crossorigin />
+    <title>群馬大学生向けユーザースクリプト公開ページ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./main.js" defer></script>
+    <!-- OGP とかはめんどくさいから今度 -->
+  </head>
+  <body>
+    <main>
+      <h1>群馬大学生向けユーザースクリプト</h1>
+      <section class="description">
+        <p>このサイトでは、LMS (Moodle) や、教務システムなど、群馬大学の学生が利用するサイトをもっと便利で快適にするためのユーザースクリプト（拡張機能のようなもの）を配布しています。</p>
+        <p>これらのユーザースクリプトを使用することによって、たまに不便を感じたり、使いにくいと感じることもある各種サイトの利用が、より快適になると思います。</p>
+        <p>ユーザースクリプトで追加の通信を行うことはありませんので、大学側にも負荷がかかることはないと思いますし、これらのユーザースクリプトを利用したことで、損害などが起こることはないとは思いますが、万が一発生した際には、開発者や管理者は責任を負いかねますので、あくまで自己責任の範囲内でご活用ください。</p>
+        <p>このサイトやユーザースクリプトは、大学や総合情報メディアセンターと提携していませんし、また承認されていません。</p>
+      </section>
+      <section class="description">
+        <p>これらのユーザースクリプトをインストールして使うには、ユーザースクリプトを実行できる拡張機能をインストールする必要があります。まだ入れていなければ、<a href="https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank" rel="noreferrer noopener">Tampermonkey</a> をお勧めします。</p>
+        <p>動作環境は、Chrome か Edge の最新版です。これらの環境なら動作するはずです。</p>
+      </section>
+      <div id="app">
+        <p class="center">Loading...</p>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; kyn165</p>
+      <p>This site and those userscripts are not affiliated or endorsed with/by Gunma university.</p>
+    </footer>
+  </body>
+</html>
