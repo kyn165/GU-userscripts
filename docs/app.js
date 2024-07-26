@@ -17,8 +17,8 @@ function Card({ id, name, description, filename }){
     a({
       className: "install",
       href: `https://github.com/kyn165/GU-userscripts/raw/main/scripts/${filename}`,
-      target: "_blank",
-      rel: "noreferrer noopener",
+      // target: "_blank",
+      // rel: "noreferrer noopener",
     }, installed ? "✅ インストール済み" : "⬇️ インストールする")
   ]);
 }
