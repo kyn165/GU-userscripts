@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GU-KYOMU - Disable interval alert
-// @namespace    http://kyn165.github.io
+// @namespace    http://kyn165.github.io/GU-userscripts/
 // @version      2024-05-12
 // @description  Disable the meaningless alerts that are somehow shown periodically.
 // @author       kyn

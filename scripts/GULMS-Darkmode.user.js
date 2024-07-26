@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GULMS - Darkmode
-// @namespace    http://kyn165.github.io
+// @namespace    http://kyn165.github.io/GU-userscripts/
 // @version      2024-04-19
 // @description  Enables comfortable LMS for eyes. Add a dark mode toggle on header.
 // @author       kyn

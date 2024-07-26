@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GULMS - Fast my-course listing
-// @namespace    http://kyn165.github.io
+// @namespace    http://kyn165.github.io/GU-userscripts/
 // @version      2024-07-17
 // @description  List your course cards fastly by caching the request
 // @author       kyn

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GULMS - Course Page Scroll Restore
-// @namespace    http://kyn165.github.io
+// @namespace    http://kyn165.github.io/GU-userscripts/
 // @version      2024-06-02
 // @description  Memorize and restore the scroll position in course page
 // @author       kyn

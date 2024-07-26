@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GULMS - Dismissable Banner
-// @namespace    http://kyn165.github.io
+// @namespace    http://kyn165.github.io/GU-userscripts/
 // @version      2024-05-14
 // @description  Empower banners shown on LMS about the regular maintenance. Now it is closable.
 // @author       kyn

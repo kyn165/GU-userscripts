@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GULMS - Syllabus Bridge
-// @namespace    http://kyn165.github.io
+// @namespace    http://kyn165.github.io/GU-userscripts/
 // @version      1.0
 // @description  Show a button on course pages on LMS to allow you to access the syllabus page quickly.
 // @author       kyn

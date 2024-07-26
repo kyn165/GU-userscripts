@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GULMS - New Session Redirector
-// @namespace    http://kyn165.github.io
+// @namespace    http://kyn165.github.io/GU-userscripts/
 // @version      2024-05-10
 // @description  Redirect you to the my-course page if it is a new session, and let you access desired courses quickly.
 // @author       kyn
